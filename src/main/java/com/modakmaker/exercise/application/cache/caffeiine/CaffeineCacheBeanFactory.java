@@ -1,4 +1,4 @@
-package com.modakmaker.exercise.application.cache.redis;
+package com.modakmaker.exercise.application.cache.caffeiine;
 
 import com.github.benmanes.caffeine.cache.Caffeine;
 import io.github.bucket4j.caffeine.CaffeineProxyManager;

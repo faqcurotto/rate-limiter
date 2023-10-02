@@ -3,8 +3,8 @@ package com.modakmaker.exercise.domain.model;
 import lombok.Data;
 
 @Data
-public class UserEmail {
+public class Email {
 
-    String userId;
+    String receiverUserId;
     String message;
 }
