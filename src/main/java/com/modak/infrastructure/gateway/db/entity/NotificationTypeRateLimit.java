@@ -1,4 +1,4 @@
-package com.modak.infrastructure.repository.entity;
+package com.modak.infrastructure.gateway.db.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

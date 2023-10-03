@@ -1,7 +1,7 @@
 package com.modak.infrastructure.service;
 
-import com.modak.infrastructure.repository.RateLimitRepository;
-import com.modak.infrastructure.repository.entity.NotificationTypeRateLimit;
+import com.modak.infrastructure.gateway.db.repository.RateLimitRepository;
+import com.modak.infrastructure.gateway.db.entity.NotificationTypeRateLimit;
 import io.github.bucket4j.distributed.BucketProxy;
 import io.github.bucket4j.distributed.proxy.ProxyManager;
 import io.github.bucket4j.distributed.proxy.RemoteBucketBuilder;

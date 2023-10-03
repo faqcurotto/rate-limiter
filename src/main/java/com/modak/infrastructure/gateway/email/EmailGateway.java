@@ -1,4 +1,4 @@
-package com.modak.infrastructure.gateway;
+package com.modak.infrastructure.gateway.email;
 
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
 package com.modak.infrastructure.adapter;
 
 import com.modak.application.error.exception.RateLimitException;
-import com.modak.infrastructure.gateway.EmailGateway;
+import com.modak.infrastructure.gateway.email.EmailGateway;
 import com.modak.infrastructure.service.RateLimiterService;
 import io.github.bucket4j.Bucket;
 import io.github.bucket4j.ConsumptionProbe;

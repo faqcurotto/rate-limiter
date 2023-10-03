@@ -1,4 +1,4 @@
-package com.modak.application.error.handler;
+package com.modak.application.error.exceptionhandler;
 
 import com.modak.application.error.exception.RateLimitException;
 import jakarta.servlet.http.HttpServletRequest;

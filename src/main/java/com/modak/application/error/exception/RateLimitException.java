@@ -5,7 +5,7 @@ import lombok.Getter;
 @Getter
 public class RateLimitException extends RuntimeException {
 
-    private long refillTimeSeconds;
+    private final long refillTimeSeconds;
 
     public RateLimitException(long refillTimeSeconds, String message) {
         super(message);

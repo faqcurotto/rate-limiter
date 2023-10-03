@@ -1,4 +1,4 @@
-package com.modak.application.cache.caffeiine;
+package com.modak.application.config.cache;
 
 import com.github.benmanes.caffeine.cache.Caffeine;
 import io.github.bucket4j.caffeine.CaffeineProxyManager;
