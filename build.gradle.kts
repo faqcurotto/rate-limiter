@@ -21,6 +21,7 @@ dependencies {
     implementation ("org.springframework.boot:spring-boot-starter-web")
     implementation ("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation ("org.springframework.boot:spring-boot-starter-cache")
+    implementation ("org.springframework.boot:spring-boot-starter-test")
 
     implementation("com.h2database:h2:2.2.224")
     implementation("javax.cache:cache-api:1.1.1")
@@ -29,12 +30,15 @@ dependencies {
     implementation("com.bucket4j:bucket4j-core:8.4.0")
     implementation ("com.bucket4j:bucket4j-caffeine:8.4.0")
 
-    // TESTS
-    testImplementation(platform("org.junit:junit-bom:5.9.1"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
-
     compileOnly("org.projectlombok:lombok:1.18.26")
     annotationProcessor("org.projectlombok:lombok:1.18.26")
+
+    // TESTS
+    testImplementation(platform("org.junit:junit-bom:5.10.0"))
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
+    testImplementation("org.mockito:mockito-core:5.5.0")
+    testImplementation("org.mockito:mockito-junit-jupiter:5.5.0")
+
 }
 
 tasks.test {
